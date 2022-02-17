@@ -1,0 +1,17 @@
+{
+	"s3_bucket" : "face-demo-frame",
+	"s3_key_frames_root" : "frames/",
+
+	"ddb_table" : "EnrichedFrame",
+
+	"face_collection_id" : "ProfFaces",
+	"rekog_max_faces" : 123,
+    "rekog_min_conf" : 90.0,
+
+	"name_watch_list" : ["AdeKurnia","okta", "ariel"],
+	"name_watch_min_conf" : 90.0,
+	"name_watch_phone_num" : "+6281291285591",
+    "name_watch_sns_topic_arn" : "arn:aws:sns:ap-southeast-1:016221436595:sns-captureframefoto",
+
+	"timezone" : "Asia/Jakarta"
+}
